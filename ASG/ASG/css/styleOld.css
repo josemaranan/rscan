@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	/*width: 983px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image:  url(../images/blueGradient.gif);
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+	background-position: 0px 0px;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.mainDiv
+{
+	width: 983px;
+	background-color:#fff;
+	height: 200px;
+	margin: 40px auto;
+	align: center;
+}
+
+.headDiv
+{
+	margin: 0px auto;
+	text-align:center;
+}
+
+.emptyDiv
+{
+	height: 10px;
+}
+
+.iframeDiv
+{
+	text-align:center;
+}
+
+.buttonsDiv
+{
+	width: 380px;
+	text-align:center;
+	height: 40px;
+	align: center;
+	margin: 0 auto;
+}
+.blueButton
+{
+	background-image:url(../images/blueButton.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 33px;
+	text-align:center;
+	float:left;margin-right: 7px;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 7px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.greyButton
+{
+	background-image:url(../images/greyButton.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 33px;
+	text-align:center;
+	float:left;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	padding: 7px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.submitButton
+{
+	background-image:url(../images/submitBtn.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 33px;
+	text-align:center;
+	float:left;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	padding: 0px 5px 5px 5px;
+	cursor: pointer; 	
+	margin: 10px 0 0px 30px;
+}
+
+.popupWindow
+{
+	width: 225px;
+	height: auto;
+	background-color: #008bc4;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	overflow: hidden;
+	text-align:center;
+	line-height: 28px;
+}
+
+.popupWindow span{
+	margin: 5px 5px 5px 5px;	
+}
+
+.selectTimeDiv
+{
+	width: 500px;
+	height: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	text-align:center;
+	align: center;
+	margin: 10px auto;
+}

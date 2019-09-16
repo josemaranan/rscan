@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+}
+html
+{
+	height: 100%;	
+}
+body
+{
+	/*width: 983px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*background-image:  url(../images/blueGradient.gif);
+	background-repeat: repeat-x;*/
+	
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+
+    padding: 0;
+
+}
+
+.bodyDiv
+{
+
+	height: 150px;
+	width:100%;
+	background-image:  url(../images/ss_bg.png);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 0px 0px;
+}
+
+.bodyDivBlue
+{
+
+	height: 5px;
+	width:100%;
+	background-color:#004782;
+}
+
+.mainDiv
+{
+	width: 100%;
+	background-color:#fff;
+	/*height: 200px;
+	margin: 40px auto;*/
+	align: center;
+	min-height: 100%;
+	height: auto !important;
+    height: 100%;
+margin: 0 auto -100px;
+
+
+}
+
+.headDiv
+{
+	margin: 0px auto;
+	text-align:center;
+}
+
+.logoDiv
+{
+	margin-top: 25px;	
+	color: #004782;
+	font-size:16px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
+.emptyDiv
+{
+	height: 10px;
+}
+
+.iframeDiv
+{
+	text-align:center;
+}
+
+.buttonsDiv
+{
+	width: 380px;
+	text-align:center;
+	height: 40px;
+	align: center;
+	margin: 0 auto;
+}
+.blueButton
+{
+	background-image:url(../images/blueButton.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 33px;
+	text-align:center;
+	float:left;margin-right: 7px;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 7px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.greyButton
+{
+	background-image:url(../images/greyButton.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 33px;
+	text-align:center;
+	float:left;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	padding: 7px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.submitButton
+{
+	background-image:url(../images/submitBtn.png);
+	background-repeat: no-repeat;
+	width: 103px;
+	height: 20px;
+	text-align:center;
+	float:left;
+	margin-right: 7px;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	padding: 2px 2px 2px 2px;
+	cursor: pointer; 	
+	margin: 10px 0 0px 30px;
+}
+
+.popupWindow
+{
+	width: 225px;
+	height: auto;
+	background-color: #008bc4;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	overflow: hidden;
+	text-align:center;
+	line-height: 28px;
+}
+
+.popupWindow span{
+	margin: 5px 5px 5px 5px;	
+}
+
+.selectTimeDiv
+{
+	/*width: 500px;*/
+	height: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;	
+	text-align:center;
+	align: center;
+	margin: 10px auto;
+}
+
+.selectTimeDivText
+{
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 17px;	
+	text-align:center;
+	color:#b49b36;
+	margin-bottom: 10px;
+	line-height:26px;
+}
+
+.push
+{
+	height:100px;
+}
+
+.footer
+{
+	height:90px;
+	background:#004782;
+	color:#8CA7BD; 
+	font-size:12px;
+	font-family: Arial;
+	text-align:center;
+	line-height: 26px;
+	padding: 7px 0 0 0;
+
+}
+
+.renewNow
+{
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 17px;	
+	text-align:center;
+	color:#b49b36;
+}
+
+.renewChkBox
+{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	top: 3px;
+	/*background: url("../images/checkbox.png") no-repeat;*/
+	margin: 0 0 0 10px;
+	outline: none;
+	border: 0;
+}
+
+/*.renewChkBox:hover{
+	background: url("../images/checkbox.png") no-repeat;
+}
+.renewChkBox.selected{
+	background: url("../images/checkbox.png") no-repeat;
+}*/
+/*.renewChkBox input[type="checkbox"]{
+	margin: 0;
+	position: absolute;
+	z-index: 2;            
+	cursor: pointer;
+	outline: none;
+	opacity: 0;
+	
+	_noFocusLine: expression(this.hideFocus=true); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+}*/
+
+.frmTable
+{
+	width: 55%;	
+	align: center;
+	border: 0;
+}
+
+.frmTable th
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	text-align:left;
+	font-weight:bold;
+	color:#555555;
+}
+
+.frmTableTD
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+	text-align:left;
+	font-weight:normal;
+	color:#000000;
+	background-color:#f3f1f2;
+}
+
+.frmInput
+{
+	border: #f3f1f2;
+	background-color:#f3f1f2;
+	color: #7e7c7d;
+}
+
+.contentDiv
+{
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+
+.pageHead
+{
+	font-family: sans-serif;
+	font-size: 16px;	
+	text-align:justify;
+	font-weight:bold;
+	text-decoration:underline;	
+	color:#004782;
+}
+
+.contentText
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:normal;
+	color:#000000;
+}
+
+.contentHead
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:bold;
+	color:#000000;
+}
+
+.contentNormalBlueHead
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:normal;
+	color:#004782;
+	margin-bottom:5px;
+}
+
+.contentBlueHead
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:bold;
+	color:#004782;
+}
+
+.olMainHead
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:bold;
+	color:#004782;
+}
+
+.olMainHead li
+{
+	margin: 0 0 20px 0;		
+}
+
+.ulMainHead
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	text-align:justify;
+	font-weight:bold;
+	color:#004782;
+}
+
+.ulMainHead li
+{
+	margin: 0 0 10px 0;		
+}
+
+a.textLink
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:bold;
+	text-decoration:underline;
+	color:#0679ee;
+}
+a.textLink:hover
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:bold;
+	text-decoration:underline;
+	color:#0679ee;
+}
+a.textLink:visited
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:bold;
+	text-decoration:underline;
+	color:#0679ee;
+}
+
+a.footerLink
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:normal;
+	text-decoration:underline;
+	color:#8CA7BD;
+}
+a.footerLink:hover
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:normal;
+	text-decoration:underline;
+	color:#8CA7BD;
+}
+a.footerLink:visited
+{
+	font-family: sans-serif;
+	font-size: 12px;	
+	font-weight:normal;
+	text-decoration:underline;
+	color:#8CA7BD;
+}
+

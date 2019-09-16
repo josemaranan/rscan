@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pageHeaderTitle
+{
+	background-color:green;
+	color:white;
+	padding: 5px 10px;
+	margin-top: 3px;
+	font-size:18px;
+}
+.mainThreeLayer
+{
+	margin-top: 3px;
+	overflow:hidden;
+}
+.leftColumnDiv
+{
+	float:left;
+	width: 12%;
+	height: 100%;
+	overflow:auto;
+	text-align:center;
+}
+.middleColumnDiv
+{
+	float:left;
+	width:87%;
+	height:100%;
+	background-color: #E6E6E6;
+	text-align:center;
+}
+.eachDivLink
+{
+	border: 2px solid #848484;
+	width: 80%;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	text-align:center;
+	text-transform: uppercase;
+	color: #848484;
+}
+.eachDivLink:hover
+{
+	background-color: green;
+	color: white;
+	border: 2px solid black;
+	cursor:pointer;
+}
+.activeDivLink
+{
+	background-color: green;
+	color: white;
+	border: 2px solid black;
+}
+.sliderLocationDiv
+{
+	width: 97%;	
+	display:none;
+}
+
+.linkWiseDataDivHome
+{
+	/*background-color:#5e5e5e !important;*/
+	background-image:url(../images/default.png) !important;;
+	background-repeat:repeat;
+}
+.linkWiseDataDiv
+{
+	width: 98%;
+	height: 95%;
+	background-color:white;
+	margin-top: 5px;
+	overflow:hidden;
+	padding: 5px;
+}
+.scroller-btn-left
+{
+	float:left;
+}
+.scroller-btn-right
+{
+	float:right;
+	
+}
+
+.missedColumn
+{
+	width: 100%;
+	height: 100%;
+	background-color : red;
+}
+.missedColumnTd
+{
+	padding: 0px;
+	border: 1px solid red;
+}
+.defaultTable
+{
+	border-collapse:collapse;
+	border-top: 1px solid #7ac143;
+	border-left: 1px solid #7ac143;
+}
+.defaultTable tr th, .defaultTable tr td
+{
+	text-align: left;
+	border-right: 1px solid #7ac143;
+	border-bottom: 1px solid #7ac143;
+}
+.arrowButtons
+{
+	height: 20px;
+	width: 20px;
+	background-color: #7ac143;
+	cursor:pointer;
+	color:#FFF;
+	font-weight:bold;
+	margin-top: 13px;
+	font-size:16px;
+}
+#sliderMaskDiv
+{
+	height: 40px;
+	margin-top: 2px;
+}
+
+.eachSlideLocation
+{
+	background-color: #FFF;
+	border:1px solid #7ac143;
+	text-align:center;
+	color: green;
+	margin: 0px 5px;
+	float:left;
+	max-height: 95%;
+	min-height: 20px;
+	padding: 3px 40px;
+	line-height: 20px;
+	
+}
+.eachSlideLocation:hover
+{
+	border:1px solid #000;
+	cursor:pointer;
+	color: #FFF;
+	background-color: green;
+}
+.activeSlideLocation
+{
+	border:1px solid #000;
+	color: #FFF;
+	background-color: green;
+}
+
+/*  ----- main content divs --- */
+.subDivsInMainData
+{
+	width: 98%;
+	margin-top: 5px;
+}
+.subLinkTitle
+{
+	font-weight:bold;
+	font-size: 16px;
+	float:left;
+}
+.newExportImg
+{
+	float:right;
+}
+.newExportImg:hover
+{
+	cursor:pointer;
+}
+.notification
+{
+	text-align:left;
+	background-color:#e6e6e6;
+	color:#000;
+}
+
+.infoImg
+{
+	height: 30px;
+	width: 30px;
+	vertical-align:middle;
+	margin: 5px 10px 5px 10px;
+}
+
+/* ------clients slider --- */
+.client_slider_left
+{
+	float:left;
+}
+.client_slider_right
+{
+	float:right;
+}
+.client_slider_arrows
+{
+	width: 2%;
+	text-align:center;
+	background-color: green;
+	font-weight: bold;
+	cursor:pointer;
+	color:#FFF;
+	font-size: 16px;
+	margin-top: 20px;
+	display:none;
+}
+.client_slider_mask
+{
+	float:left;
+	width:95%;
+	text-align:center;
+	height : 70px;
+	overflow:hidden;
+	
+}
+.client_slider_slide
+{
+	width: 152px;
+	height: 96%;
+	border: 2px solid silver;
+	margin-left: 5px;
+	float:left;
+}
+.client_slider_slide span
+{
+	color:#666;
+	font-size: 14px;
+}
+.client_slider_slide:hover
+{
+	border: 2px solid red;
+	cursor:pointer;
+}
+.client_slider_activeslide
+{
+	border: 2px solid red;
+}
+
+.client_slider_slide img
+{
+	max-width: 100%;
+	max-height: 70%;
+	margin-bottom: 2px;
+}
+#fixMissing{
+	border: 2px solid black;
+	color:#FFF;
+	width:15%;
+	background-color: green;
+	margin:8px 0px 0px 0px;
+	padding:3px 0px 3px 0px;
+	cursor:pointer;
+	
+}
+
+
+/* --------- manual table ----*/
+.manualTbl tr th
+{
+	background-color:#7ac143;
+	text-align:center;
+	padding: 5px;
+}
+.manualTbl tr td
+{
+	text-align:center;
+	padding: 5px;
+}
+.manualTbl
+{
+	width: 98%;
+	border-collapse:collapse;
+}
+.eachSlide
+{
+	height: 70px;
+	border: 1px solid silver;
+	width: 80%;
+}
+.gapSlide
+{
+	height: 5px;
+}
+.scroller-btn-up
+{
+	width:40px;
+	height:25px;
+	background-image: url(../../newRnet/images/Arrows.png);
+	background-repeat: no-repeat;
+	background-position:  -25px -25px; 
+	cursor:pointer;
+}
+.scroller-btn-down
+{
+	background-image: url(../../newRnet/images/Arrows.png);
+	background-repeat: no-repeat;
+	background-position:  0px -25px; 
+	padding-left: 14px;
+	height:26px;
+	width: 12px;
+	cursor:pointer;
+	
+}
+
+/* ------  calendar  --- */
+
+.rnetCalendar
+{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+.rnetCalendar tr th
+{
+	background-color : #7ac143;
+	color : black;
+	text-align: center;
+	border: 1px solid black;
+}
+.rnetCalendar tr td
+{
+	border: 1px solid black;
+	vertical-align:top;
+	padding: 3px;
+	
+}
+
+.rnetCalendar tr td img
+{
+	cursor:pointer;
+	width: 20px;
+	height: 20px;
+	
+}
+
+.tblSelectedDays tr td
+{
+	text-align:left;
+}
+.tblSelectedDays tr th
+{
+	background-color: #7ac143;
+	color:#000;
+	text-align:left;
+}
+
+
+
